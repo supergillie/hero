@@ -1,3 +1,11 @@
+# Kör sidan
+https://supergillie.github.io/hero/index.html
+
+# gh-pageskommandon
+npm install -g angular-cli-ghpages
+ng build --prod --base-href "https://supergillie.github.io/hero/"
+ngh --dir dist/superheropage/
+
 # Superheropage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
