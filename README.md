@@ -2,9 +2,11 @@
 https://supergillie.github.io/hero/index.html
 
 # gh-pageskommandon
-npm install -g angular-cli-ghpages.
-ng build --prod --base-href "https://supergillie.github.io/hero/".
-ngh --dir dist/superheropage/.
+npm install -g angular-cli-ghpages
+
+ng build --prod --base-href "https://supergillie.github.io/hero/"
+
+ngh --dir dist/superheropage/
 
 # Superheropage
 
