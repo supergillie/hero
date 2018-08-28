@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 //import { supervillains } from 'supervillains';
-
+declare var require: any;
 
 @Component({
   selector: 'app-root',
