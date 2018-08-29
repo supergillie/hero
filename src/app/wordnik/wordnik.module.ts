@@ -7,4 +7,9 @@ import { WordnikComponent } from './wordnik.component';
   exports: [WordnikComponent],
   declarations: [WordnikComponent],
 })
-export class WordnikModule { }
+export class WordnikModule {
+
+  
+  testvariabel = "FUNKAR";
+
+ }
