@@ -7,7 +7,7 @@ import { Observable, of } from 'rxjs';
 export class TopListWordsService {
   
   constructor() { }
-returlista = ['start'];
+returlista = [''];
 ord;
 
   getWords(antal) {

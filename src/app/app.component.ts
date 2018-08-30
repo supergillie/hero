@@ -32,7 +32,7 @@ export class AppComponent {
 
     this.toplisteord = this.topListWordsService.getWords(40);
 
-    for (var i = 0; i < 10; i++){ 
+    for (var i = 0; i < 7; i++){ 
       this.rows[i] = this.toplisteord[i] 
                     + ' ' + supervillains.random() 
                     + ' ' + this.toplisteord[20+i] 
