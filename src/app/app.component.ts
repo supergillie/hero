@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TopListWordsService } from './top-list-words.service';
+import { ResourceLoader } from '../../node_modules/@angular/compiler';
 
 declare var require: any;
 
