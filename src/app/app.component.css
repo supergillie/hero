@@ -39,7 +39,7 @@ h3 { padding-left: 20px; font-family: 'PT Sans', sans-serif;font-size: 17px; fon
     .phoneContent {display:none;}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .deskContent {display:none;}
     .phoneContent {display:block;}
 }
