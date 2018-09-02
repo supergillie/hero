@@ -1,20 +1,22 @@
+# Driftsätt
+ng build --prod --base-href "https://supergillie.github.io/hero/"
+
+ngh --dir dist/superheropage/
+
+skriv in www.lyricsgenerators.com på githubsidan
+
+# checka in
+git add .
+
+git commit -m "vadsomgörs"
+
+git push origin master
+
 # Kör sidan
 https://supergillie.github.io/hero/index.html
 
 # gh-pageskommandon
 npm install -g angular-cli-ghpages
-
-# Driftsätt
-ng build --prod --base-href "https://supergillie.github.io/hero/"
-ngh --dir dist/superheropage/
-skriv in www.lyricsgenerators.com på githubsidan
-
-# checka in
-git add .
-git commit -m "vadsomgörs"
-git push origin master
-
-
 
 ----------------
 
