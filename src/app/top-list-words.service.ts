@@ -5,16 +5,16 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root'
 })
 export class TopListWordsService {
-  
+
   constructor() { }
-returlista = [''];
-ord;
+  returlista = [''];
+  ord;
 
   getWords(antal) {
- 
+
     for (var i = 0; i < antal; i++) {
       const RAND = Math.floor(Math.random() * (this.words.length + 1));
-       
+
       this.ord = this.words[RAND];
       this.returlista.push(this.ord);
     }

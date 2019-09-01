@@ -34,7 +34,7 @@ export class AppComponent {
     this.ord = this.topListWordsService.getWords(1);
     this.titelord1 = this.ord[1]
     this.titelord2 = supervillains.random();
-    this.toplisteord = this.topListWordsService.getWords(40);
+    this.toplisteord = this.topListWordsService.getWords(50);
 
     for (var i = 0; i < 5; i++) {
       this.rows[i] = this.toplisteord[i]
