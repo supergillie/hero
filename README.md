@@ -6,6 +6,9 @@ ng build --prod --base-href "https://supergillie.github.io/hero/"
 ngh --dir dist/superheropage/
 
 skriv in www.lyricsgenerators.com på githubsidan
+(Under settings, github pages, Custom domain
+ Custom domain
+Custom domains allow you to serve your site from a domain other than supergillie.github.io. Learn more...)
 
 # checka in
 git add .
