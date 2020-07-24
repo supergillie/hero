@@ -1,3 +1,46 @@
-<p>
-  wordnik works!
-</p>
+
+<div class="deskContent">
+  <div class="row">
+    <div class="column">
+      <div style="text-align:left">
+        <!--app-wordnik></app-wordnik-->
+        <h1>
+          {{titelord1}} {{titelord2}}
+        </h1>
+        <h3>
+          <div *ngFor="let row of rows">
+            {{ row }}
+          </div>
+        </h3>
+      </div>
+    </div>
+    <div class="column">
+      <div style="text-align:left">
+        <!--app-wordnik></app-wordnik-->
+        <h1>
+          {{titelord3}} {{titelord4}}
+        </h1>
+        <h3>
+          <div *ngFor="let row2 of row2s">
+            {{ row2 }}
+          </div>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="phoneContent">
+  <div style="text-align:left">
+    <!--app-wordnik></app-wordnik-->
+    <h1>
+      {{titelord1}} {{titelord2}}
+    </h1>
+    <h3>
+      <div *ngFor="let row of rows">
+        {{ row }}
+      </div>
+    </h3>
+  </div>
+</div>
+
+
