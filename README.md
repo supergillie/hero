@@ -1,7 +1,7 @@
 0.95 coming up
 
 # Driftsätt
-ng build --prod --base-href "https://supergillie.github.io/hero/"
+ng build --prod --base-href ./
 
 ngh --dir dist/superheropage/
 

@@ -55,3 +55,9 @@ h3 { padding-left: 20px; font-family: 'PT Sans', sans-serif;font-size: 17px; fon
     display: table;
     clear: both;
 }
+
+.image{
+     height:40em; background-size:cover; width:auto;
+     background-image: assets/img/odessa.jpg;
+     background-position:50% 50%;
+   }
