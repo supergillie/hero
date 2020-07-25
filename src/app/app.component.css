@@ -3,7 +3,7 @@
     padding-top: 0%;
     letter-spacing: 1px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 10px; 
+    font-size: 10px;
 }
 
 .stor {
@@ -12,22 +12,22 @@
     text-shadow: 3px 2px grey;
     font-family: "Times New Roman", Times, serif;
 }
- 
 
-h1 { font-family: 'PT Sans', sans-serif;font-size: 43px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 32px; } 
 
-h3 { padding-left: 20px; font-family: 'PT Sans', sans-serif;font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
+h1 { font-family: 'PT Sans', sans-serif;font-size: 43px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 32px; }
+
+h3 { padding-left: 20px; font-family: 'PT Sans', sans-serif;font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; }
 
 .deskContent {
- 
+
     width: 100%;
     height: 400px;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
 }
 
 .phoneContent {
-    
+
     width: 100%;
     height: 100px;
     background-repeat: no-repeat;
@@ -55,3 +55,14 @@ h3 { padding-left: 20px; font-family: 'PT Sans', sans-serif;font-size: 17px; fon
     display: table;
     clear: both;
 }
+
+.button {
+  &.image {
+   background-color: red;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+  }
+}
+
+
