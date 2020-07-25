@@ -10,7 +10,7 @@ declare var require: any;
   styleUrls: ['./movie.component.css']
 })
 export class MovieComponent implements OnInit {
-
+  counter=0;
   heroName1; heroName2; heroName3; heroName4; heroName5;
   titelord1; titelord2; titelord3; titelord4;
 
@@ -24,18 +24,43 @@ export class MovieComponent implements OnInit {
 
   constructor(private topListWordsService: TopListWordsService) { }
 
-  ngOnInit() {
+refresh(): void {
 
-      this.ord = this.topListWordsService.getOdessaWords(1);
+    this.newLyr();
+    console.log("hej");
+}
+
+ isEven(n) {
+   return n % 2 == 0;
+}
+
+newLyr(){
+   this.counter++;
+     this.ord = this.topListWordsService.getOdessaWords(1);
+
       this.titelord2 = this.ord[1]
       this.titelord1 = "Odessa"
-      this.toplisteord = this.topListWordsService.getOdessaWords(50);
 
-      for (var i = 0; i < 5; i++) {
+      if(this.isEven(this.counter)){
+        this.titelord2 = "Odessa"
+        this.titelord1 = this.ord[1]
+      }
+
+
+this.toplisteord = "";
+      this.toplisteord = this.topListWordsService.getOdessaWords(50);
+      console.log("nu skapas en ny text.")
+      console.log("första ordet är "+this.toplisteord)
+
+      for (var i = 0; i < 8; i++) {
         this.rows[i] = this.toplisteord[i]
           + ' ' + this.toplisteord[20 + i]
           + ' ' + this.toplisteord[21 + i]
           + ' ' + this.toplisteord[22 + i];
       }
+}
+
+  ngOnInit() {
+      this.newLyr();
     };
   }

@@ -11,6 +11,7 @@ export class TopListWordsService {
   ord;
 
   getWords(antal) {
+  this.returlista = [''];
     for (var i = 0; i < antal; i++) {
       const RAND = Math.floor(Math.random() * (this.words.length + 1));
 
@@ -21,6 +22,7 @@ export class TopListWordsService {
   }
 
   getOdessaWords(antal){
+  this.returlista = [''];
    for (var i = 0; i < antal; i++) {
         const RAND = Math.floor(Math.random() * (this.words.length + 1));
         this.ord = this.odessaWords[RAND];
