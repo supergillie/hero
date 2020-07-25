@@ -3,6 +3,7 @@
     import { MovieComponent } from '../movie/movie.component'
     import { WordnikComponent } from '../wordnik/wordnik.component'
 
+
     const routes: Routes = [
         {
             path: 'movie',
@@ -17,7 +18,7 @@
 
     @NgModule({
         imports: [
-            RouterModule.forRoot(routes)
+            RouterModule.forRoot(routes, {useHash: true})
         ],
         exports: [
             RouterModule
