@@ -7,18 +7,23 @@ import { WordnikComponent } from './wordnik/wordnik.component';
 
 import { MovieComponent } from './movie/movie.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { MovieTreeoflifeComponent } from './movie-treeoflife/movie-treeoflife.component';
+import {HttpClientModule} from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieComponent,
-    WordnikComponent
+    WordnikComponent,
+    MovieTreeoflifeComponent
   ],
   imports: [
   //  WordnikModule,
     BrowserModule,
     AppRoutingModule,
   //  WordnikModule,
+    HttpClientModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],

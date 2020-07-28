@@ -1,0 +1,49 @@
+
+
+<div> ...</div>
+<div>
+  <button (click)="refresh()">new lyric</button>
+</div>
+
+<div class="deskContent">
+  <div>
+    <!--div [ngStyle]="{'width': '200px'}"-->
+    <!--div [ngStyle]="getBackground()"-->
+    <img src="assets/img/treeoflife.jpg" alt="image" height="282" align="right">
+    <div class="row">
+      <div class="column">
+        <div style="text-align:left">
+          <h1>
+            {{titelord1}} {{titelord2}}
+          </h1>
+          <h3>
+            <div *ngFor="let row of rows">
+              {{ row }}
+            </div>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="phoneContent">
+  <div>
+    <img src="assets/img/treeoflife.jpg" alt="image" height="282" align="right">
+    <div style="text-align:left">
+      <h1>
+        {{titelord1}} {{titelord2}}
+      </h1>
+      <h3>
+        <div *ngFor="let row of rows">
+          {{ row }}
+        </div>
+      </h3>
+    </div>
+  </div>
+</div>
+<div>
+
+
+</div>
+
+
