@@ -1,14 +1,18 @@
+
+
  <div> ...</div>
 <div>
   <button (click)="refresh()">new lyric</button>
 </div>
 
-<div class="deskContent" >
-  <div [style.background]="'url(' + 'assets/img/odessa.jpg' + ') no-repeat'">
+<div class="deskContent">
+<div>
+  <!--div [ngStyle]="{'width': '200px'}"-->
+  <!--div [ngStyle]="getBackground()"-->
+   <img src="assets/img/odessa.jpg" alt="image" height="282" align="right">
   <div class="row">
     <div class="column">
       <div style="text-align:left">
-        <!--app-wordnik></app-wordnik-->
         <h1>
           {{titelord1}} {{titelord2}}
         </h1>
@@ -23,9 +27,9 @@
   </div>
 </div>
 <div class="phoneContent">
-  <div class=image>
+  <div>
+      <img src="assets/img/odessa.jpg" alt="image" height="282" align="right">
   <div style="text-align:left">
-    <!--app-wordnik></app-wordnik-->
     <h1>
       {{titelord1}} {{titelord2}}
     </h1>
@@ -39,7 +43,7 @@
 </div>
 <div>
 
-  <img src="assets/img/odessa.jpg" alt="image">
+
 </div>
 
 

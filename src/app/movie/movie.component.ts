@@ -21,6 +21,13 @@ export class MovieComponent implements OnInit {
   ord2;
   rows = ['', ''];
   row2s = ['', ''];
+//  private commonUrl: string= 'http://localhost:4200';
+  private commonUrl: string= '';
+
+  getBackground() {
+     return {'background-image': `url(${this.commonUrl}/assets/img/odessa.jpg)`};
+
+  }
 
   constructor(private topListWordsService: TopListWordsService) { }
 
@@ -44,7 +51,9 @@ newLyr(){
       if(this.isEven(this.counter)){
         this.titelord2 = "Odessa"
         this.titelord1 = this.ord[1]
-      }
+}
+
+
 
 
 this.toplisteord = "";
@@ -52,7 +61,7 @@ this.toplisteord = "";
       console.log("nu skapas en ny text.")
       console.log("första ordet är "+this.toplisteord)
 
-      for (var i = 0; i < 8; i++) {
+      for (var i = 0; i < 12; i++) {
         this.rows[i] = this.toplisteord[i]
           + ' ' + this.toplisteord[20 + i]
           + ' ' + this.toplisteord[21 + i]

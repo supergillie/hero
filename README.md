@@ -1,4 +1,4 @@
-0.95 coming up
+1.01 coming up
 
 # Driftsätt
 ng build --prod --base-href ./
