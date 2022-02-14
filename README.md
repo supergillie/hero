@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/209369/153861634-428dd6b6-5927-4107-a2e5-dc919f27d588.png)
+
 1.01 coming up
 
 # Driftsätt
